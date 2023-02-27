@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+body , *{
+    margin: 0;
+}
+
+.App {
+    font-family: 'Assistant', sans-serif;
+}
+
+.cardlist {
+    padding: 0;
+    list-style: none;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card--horizontal {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card__top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card__head {
+    font-size: 20px;
+}
+
+.card__head--bg {
+    font-size: 25px;
+}
+
+.card__content {
+    font-size: 18px;
+    color: #646E79;
+}
+
+.card__content--sm {
+  font-size: 16px;
+}
+
+.card__content--bg {
+    font-size: 20px;
+}
+
+.txtlink {
+    color: black;
+}
+
+.txtlink--yellow {
+    color: #FFB322;
+}
+
+
+.btn {
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn--primary {
+    background: #4353FF;
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+    width: 100%;
+}

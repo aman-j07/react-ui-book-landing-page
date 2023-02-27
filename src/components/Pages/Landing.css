@@ -1,0 +1,66 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 40px;
+    padding: 60px;
+    position: relative;
+}
+
+.features .card {
+    margin-bottom: 30px;
+    gap: 15px;
+}
+
+.feature__head {
+    margin-bottom: 30px;
+}
+
+.feature--profile {
+    max-width: 480px;
+}
+
+.feature--profile .cardlist .card__logo {
+    max-width: 50px;
+}
+
+.feature--profile .cardlist .card__details {
+    max-width: 320px;
+}
+
+.feature__wrapper {
+    border: 2px solid #E0E0E0;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.feature--info {
+    max-width: 620px;
+    min-height: 676px;
+}
+
+.features__bg {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    min-height: 676px;
+    max-width: 345px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: black;
+    border-radius: 0px 0px 0px 30px;
+}
+
+.feature--images {
+    max-width: 296px;
+}
+
+.feature--fonts {
+    max-width: 450px;
+}
