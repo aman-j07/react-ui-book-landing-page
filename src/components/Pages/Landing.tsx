@@ -34,7 +34,7 @@ const Landing = () => {
                 </div>
               </div>
               <div className="profile__body">
-                <h4>Follow Us</h4>
+                <h2 className="profile__title">Follow Us</h2>
                 <ul className="cardlist">
                   <li className="card">
                     <img

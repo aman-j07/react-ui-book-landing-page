@@ -36,3 +36,24 @@
     margin-right: -150px;
     z-index: 2;
 }
+
+@media (width < 1114px) {
+    .header__bottom {
+        display: block;
+    }
+
+    .header__bannerpic {
+        max-width: 100vw;
+    }
+
+    .header__bannerpic--prior {
+        margin: 0;
+    }
+}
+
+@media (width < 700px ) {
+    .header {
+        padding: 10px;
+    }
+}
+
