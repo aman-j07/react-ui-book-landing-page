@@ -5,7 +5,7 @@
 
 .features {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 40px;
     padding: 60px;
     position: relative;
@@ -75,8 +75,20 @@
     }
 }
 
-@media (width < 700px ) {
+@media (width < 700px) {
     .features {
-        padding: 15px;
+        padding: 10px;
+    }
+
+}
+
+@media (width < 450px) {
+    .features {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .feature__wrapper {
+        padding: 10px;
+        max-width: 300px;
     }
 }

@@ -56,6 +56,10 @@ body , *{
     font-size: 20px;
 }
 
+.card__highlight {
+    color: #4353FF;
+}
+
 .txtlink {
     color: black;
 }
@@ -63,7 +67,6 @@ body , *{
 .txtlink--yellow {
     color: #FFB322;
 }
-
 
 .btn {
     padding: 16px;
@@ -78,4 +81,31 @@ body , *{
     font-weight: 600;
     text-decoration: underline;
     width: 100%;
+}
+
+@media (width < 450px ) {
+    .card {
+        gap: 10px;
+    }
+
+    .card__head {
+        font-size: 16px;
+    }
+    
+    .card__head--bg {
+        font-size: 20px;
+    }
+    
+    .card__content {
+        font-size: 14px;
+        color: #646E79;
+    }
+    
+    .card__content--sm {
+      font-size: 12px;
+    }
+    
+    .card__content--bg {
+        font-size: 16px;
+    }
 }

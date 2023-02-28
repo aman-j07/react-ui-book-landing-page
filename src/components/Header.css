@@ -43,7 +43,7 @@
     }
 
     .header__bannerpic {
-        max-width: 100vw;
+        max-width: 90vw;
     }
 
     .header__bannerpic--prior {
@@ -52,6 +52,10 @@
 }
 
 @media (width < 700px ) {
+    .header__top {
+        padding: 0 15px;
+    }
+    
     .header {
         padding: 10px;
     }
